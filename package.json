@@ -1,0 +1,30 @@
+{
+  "name": "usertasklist",
+  "version": "1.0.0",
+  "description": "RESTful todo app listing users and their tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No test specified for this app\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hliska/userTaskList.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Haylee Liska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hliska/userTaskList/issues"
+  },
+  "homepage": "https://github.com/hliska/userTaskList#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  }
+}
